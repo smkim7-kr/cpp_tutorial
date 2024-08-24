@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\dev\cpp\18_arrays\main.cpp(38,15): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\dev\cpp\18_arrays\main.cpp(35,6): warning C4101: 'sizeKnownArray': unreferenced local variable
+  18_arrays.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\18_arrays.exe

@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\dev\cpp\33_arrow\main.cpp(66,15): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\dev\cpp\33_arrow\main.cpp(66,15): warning C4302: 'type cast': truncation from 'int *' to 'int'
+C:\dev\cpp\33_arrow\main.cpp(67,16): warning C4311: 'type cast': pointer truncation from 'int *' to 'int'
+C:\dev\cpp\33_arrow\main.cpp(67,16): warning C4302: 'type cast': truncation from 'int *' to 'int'
+  33_arrow.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\33_arrow.exe

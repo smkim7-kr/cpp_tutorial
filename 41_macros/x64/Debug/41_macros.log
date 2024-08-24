@@ -1,0 +1,6 @@
+﻿  main.cpp
+C:\dev\cpp\41_macros\main.cpp(14,9): warning C4005: 'LOG': macro redefinition
+      C:\dev\cpp\41_macros\main.cpp(7,9):
+      see previous definition of 'LOG'
+  
+  41_macros.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\41_macros.exe

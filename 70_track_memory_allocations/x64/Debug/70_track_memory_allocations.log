@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\dev\cpp\70_track_memory_allocations\main.cpp(21,40): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\dev\cpp\70_track_memory_allocations\main.cpp(28,36): warning C4267: '+=': conversion from 'size_t' to 'uint32_t', possible loss of data
+C:\dev\cpp\70_track_memory_allocations\main.cpp(42,9): warning C4101: 'obj': unreferenced local variable
+  70_track_memory_allocations.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\70_track_memory_allocations.exe

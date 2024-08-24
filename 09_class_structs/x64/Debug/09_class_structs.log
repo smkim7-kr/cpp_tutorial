@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\dev\cpp\09_class_structs\main.cpp(40,46): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+C:\dev\cpp\09_class_structs\main.cpp(38,6): warning C4101: 'positionX': unreferenced local variable
+C:\dev\cpp\09_class_structs\main.cpp(38,17): warning C4101: 'positionY': unreferenced local variable
+  09_class_structs.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\09_class_structs.exe

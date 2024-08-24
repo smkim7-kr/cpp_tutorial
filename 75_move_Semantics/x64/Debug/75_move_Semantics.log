@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\dev\cpp\75_move_Semantics\main.cpp(13,18): warning C4267: '=': conversion from 'size_t' to 'uint32_t', possible loss of data
+  75_move_Semantics.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\75_move_semantics.exe

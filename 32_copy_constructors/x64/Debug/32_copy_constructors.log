@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\dev\cpp\32_copy_constructors\main.cpp(17,18): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+  32_copy_constructors.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\32_copy_constructors.exe

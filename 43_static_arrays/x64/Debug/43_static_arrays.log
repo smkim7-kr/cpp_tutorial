@@ -1,0 +1,7 @@
+﻿  main.cpp
+C:\dev\cpp\43_static_arrays\main.cpp(9,20): warning C4018: '<': signed/unsigned mismatch
+C:\dev\cpp\43_static_arrays\main.cpp(25,10): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\dev\cpp\43_static_arrays\main.cpp(26,6): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\dev\cpp\43_static_arrays\main.cpp(26,19): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\dev\cpp\43_static_arrays\main.cpp(22,6): warning C4101: 'oldarr': unreferenced local variable
+  43_static_arrays.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\43_static_arrays.exe

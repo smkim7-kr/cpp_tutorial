@@ -1,0 +1,14 @@
+﻿  main.cpp
+C:\dev\cpp\80_iterators_from_scratch\Vector.h(130,10): error C2955: 'VectorIterator': use of class template requires template argument list
+  (compiling source file 'main.cpp')
+      C:\dev\cpp\80_iterators_from_scratch\Vector.h(4,7):
+      see declaration of 'VectorIterator'
+      C:\dev\cpp\80_iterators_from_scratch\Vector.h(130,10):
+      the template instantiation context (the oldest one first) is
+          C:\dev\cpp\80_iterators_from_scratch\main.cpp(8,14):
+          see reference to class template instantiation 'Vector<int>' being compiled
+          C:\dev\cpp\80_iterators_from_scratch\Vector.h(129,11):
+          while compiling class template member function 'VectorIterator<Vector<int>> Vector<int>::end(void)'
+              C:\dev\cpp\80_iterators_from_scratch\main.cpp(19,19):
+              see the first reference to 'Vector<int>::end' in 'main'
+  

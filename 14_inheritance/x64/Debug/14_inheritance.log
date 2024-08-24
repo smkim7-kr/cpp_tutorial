@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\dev\cpp\14_inheritance\main.cpp(12,11): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+C:\dev\cpp\14_inheritance\main.cpp(13,11): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  14_inheritance.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\14_inheritance.exe

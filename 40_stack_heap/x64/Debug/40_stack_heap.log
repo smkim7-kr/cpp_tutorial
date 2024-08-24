@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\dev\cpp\40_stack_heap\main.cpp(25,6): warning C4101: 'sarr': unreferenced local variable
+  40_stack_heap.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\40_stack_heap.exe

@@ -1,0 +1,39 @@
+﻿  main.cpp
+C:\dev\cpp\65_multithreading_async\main.cpp(36,26): error C2672: 'std::async': no matching overloaded function found
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\future(1426,81):
+      could be 'std::future<_Select_invoke_traits<decay<_Ty>::type,decay<_ArgTypes>::type...>::type> std::async(_Fty &&,_ArgTypes ...)'
+          C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+          Failed to specialize function template 'std::future<_Select_invoke_traits<decay<_Ty>::type,decay<_ArgTypes>::type...>::type> std::async(_Fty &&,_ArgTypes ...)'
+              C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+              With the following template arguments:
+                  C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+                  '_Fty=std::launch'
+                  C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+                  '_ArgTypes={void (__cdecl &)(std::vector<Player,std::allocator<Player>> &,Player &), std::reference_wrapper<std::vector<Player,std::allocator<Player>>>, std::reference_wrapper<const _Ty>}'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\future(1413,25):
+              'std::_Invoke_result_t' : Failed to specialize alias template
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(1855,79):
+                  'type': is not a member of any direct or indirect base class of 'std::_Invoke_traits_nonzero<void,std::launch,void (__cdecl *)(std::vector<Player,std::allocator<Player>> &,Player &),std::reference_wrapper<std::vector<Player,std::allocator<Player>>>,std::reference_wrapper<const _Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\future(1413,81):
+      or       'std::future<_Select_invoke_traits<decay<_Ty>::type,decay<_ArgTypes>::type...>::type> std::async(std::launch,_Fty &&,_ArgTypes ...)'
+          C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+          Failed to specialize function template 'std::future<_Select_invoke_traits<decay<_Ty>::type,decay<_ArgTypes>::type...>::type> std::async(std::launch,_Fty &&,_ArgTypes ...)'
+              C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+              With the following template arguments:
+                  C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+                  '_Fty=void (__cdecl &)(std::vector<Player,std::allocator<Player>> &,Player &)'
+                  C:\dev\cpp\65_multithreading_async\main.cpp(36,26):
+                  '_ArgTypes={std::reference_wrapper<std::vector<Player,std::allocator<Player>>>, std::reference_wrapper<const _Ty>}'
+              C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\future(1413,25):
+              'std::_Invoke_result_t' : Failed to specialize alias template
+                  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.41.34120\include\type_traits(1855,79):
+                  'type': is not a member of any direct or indirect base class of 'std::_Invoke_traits_nonzero<void,void (__cdecl *)(std::vector<Player,std::allocator<Player>> &,Player &),std::reference_wrapper<std::vector<Player,std::allocator<Player>>>,std::reference_wrapper<const _Ty>>'
+          with
+          [
+              _Ty=Player
+          ]
+  

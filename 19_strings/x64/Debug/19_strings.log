@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\dev\cpp\19_strings\main.cpp(31,12): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  19_strings.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\19_strings.exe

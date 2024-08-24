@@ -1,0 +1,2 @@
+﻿  main.cpp
+C:\dev\cpp\71_lvalues_rvalues\main.cpp(57,13): error C2040: 'a': 'const int &' differs in levels of indirection from 'int'
