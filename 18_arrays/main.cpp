@@ -15,7 +15,7 @@ int main() {
 	
 	// array is a pointer
 	int* ptr = example; // points to first element address memory
-	*(ptr + 2) = 6; // this ie same as example[2] = 6;
+	*(ptr + 2) = 6; // this is same as example[2] = 6;
 	*(int*)((char*)ptr + 8) = 6; // same as above code
 
 	// array in heap 

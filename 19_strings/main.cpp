@@ -1,4 +1,4 @@
-// strong - group of characters
+// string - group of characters
 #include <iostream>
 #include <string>
 #define Log(x) std::cout << x << std::endl;

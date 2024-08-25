@@ -1,6 +1,6 @@
 // interfaces: special types of virtual functions - "pure virtual functions'
 // guarantee classes to have certain function (interface of parent class) to instantiate
-// force subclass to implement a function by not implementing anything on base class
+// force subclass to implement a function by implementing nothing on base class
 #include <iostream>
 #define Log(x) std::cout << x << std::endl;
 
