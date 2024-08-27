@@ -24,10 +24,15 @@ public:
 	explicit Robot(int x, int y, std::string name) // explicit constructor
 		: m_x(x), m_y(y), name(name)
 	{}
+
+	void Print() const
+	{
+		std::cout << m_x << ", " << m_y << ", " << name << std::endl;
+	}
 };
 
 void PrintRobot(const Robot& robot) {
-	//Prnting
+	robot.Print();
 }
 
 int main() {

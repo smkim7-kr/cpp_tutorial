@@ -55,7 +55,7 @@ int main() {
 	{
 		Robot* r = new Robot(); // created on heap
 	} // not destroyed here 
-	
+
 	int* a = CreateArray(); // pointer a points to already freed memory!
 	int* b = CreateArraySol(); // pointer b points to first element addreess
 	int* arr = new int[50];

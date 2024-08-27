@@ -1,2 +1,3 @@
 ﻿  main.cpp
+C:\dev\cpp\23_constructor_initializer_list\main.cpp(23,8): warning C4930: 'Robot r(void)': prototyped function not called (was a variable definition intended?)
   23_constructor_initializer_list.vcxproj -> C:\dev\cpp\cpp_tutorials\x64\Debug\23_constructor_initializer_list.exe

@@ -29,7 +29,8 @@ int main() {
 	Robot* r2 = new Robot[30]; // 30 Robot objects continguous size allocation to heap
 	
 
-	Robot* r3 = new(r2) Robot(); // placement new to optimize code
+	Robot* r3 = new(r2) Robot(); // special operator: placement new to optimize code
+	std::cout << (bool)(r2 == r3) << std::endl;
 
 	delete r; 
 	delete[] r2;

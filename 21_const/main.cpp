@@ -37,10 +37,10 @@ void PrintRobot(const Robot& robot) {
 }
 
 int main() {
-	// const of variable
 	int a = 5;
 	a = 2;
 
+	// const variable
 	const int b = 5;
 	//b = 5; // this will cause eerror
 

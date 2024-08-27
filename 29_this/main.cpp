@@ -19,7 +19,7 @@ public:
 		// this = nullptr; // this is not allowed to reassign the address
 		r->m_x = x; r->m_y = y; // or this->m_x, this->m_y alternatively
 
-		PrintRobot(this); // passing this to input parameter of function ouside the class
+		PrintRobot(this); // passing this to function outside the class
 		PrintRobotRef(*this); 
 
 		// delete this; // avoid doing this, freeing memory from member function
@@ -50,7 +50,7 @@ void PrintRobotRef(const Robot& r) {
 
 int main() {
 	// Create a Robot object
-	Robot r(10, 20); // Will automatically call PrintRobot and PrintRobotRef
+	Robot r(10, 20); // will automatically call PrintRobot and PrintRobotRef
 
 	std::cin.get(); 
 }

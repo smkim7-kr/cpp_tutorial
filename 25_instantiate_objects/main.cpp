@@ -33,6 +33,8 @@ int main() {
 	Robot r2(3, 4); // Robot r2 = Robot(3, 4)
 	int x2 = r2.GetPositionX(); // x2 = 3
 
+	std::cout << x << ", " << x2 << std::endl;
+
 	// If want objects to live outside the scope
 	// or if wants to store large size object (since stack is small area) 
 	Robot* robotptr;
@@ -40,8 +42,8 @@ int main() {
 		Robot pr(7, 8);
 		Robot* pr2 = new Robot(3, 4); // heap-allocated Robot object
 		robotptr = pr2;
-		Log(pr2->GetPositionX());
-		delete pr2;
+		Log(robotptr->GetPositionX());
+		delete pr2; // pr2 destoys here
 	} // pr destroys here
 
 	delete robotptr; // robotptr destroys here
